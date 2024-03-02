@@ -1,0 +1,39 @@
+@import "base/variables";
+
+@import "partials/header";
+@import "partials/navigation";
+@import "partials/section";
+@import "partials/menu_item";
+@import "partials/footer";
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+// Global Styling
+body {
+  font-family: $font-family;
+  margin: 0;
+  padding: 0;
+  background-color: #f7f7f7;
+  line-height: 1.6;
+  text-align: center;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 10px 20px;
+}
+
+.rounded-box {
+  width: 80%;
+  background-color: $primary-color;
+  border-radius: 20px;
+  padding: 20px;
+  color: #fff;
+  display: inline-block;
+  margin: 20px 20px;
+}
